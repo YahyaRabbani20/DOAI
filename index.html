@@ -1,64 +1,166 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DOAI Pitch Presentation</title>
-    <style>
-        body { font-family: Arial, sans-serif; line-height: 1.6; }
-        section { margin: 20px 0; padding: 20px; border: 1px solid #ccc; border-radius: 5px; background-color: #f9f9f9; }
-        h2 { color: #333; }
-        p { color: #555; }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DOAI | Diagnostic Optical AI</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
-    <h1>DOAI Pitch Presentation</h1>
-    <section>
-        <h2>Problem</h2>
-        <p>Sensors are struggling to effectively operate within complex applications, limiting their usability.</p>
-    </section>
-    <section>
-        <h2>Solution</h2>
-        <p>We provide a cutting-edge solution utilizing molecular fingerprinting for enhanced sensor accuracy and performance.</p>
-    </section>
-    <section>
-        <h2>SWCNT Advantages</h2>
-        <p>Our SWCNT optical sensors offer substantial improvements in sensitivity, specificity, and integration with AI-guided design methodologies.</p>
-    </section>
-    <section>
-        <h2>AI Platform</h2>
-        <p>By integrating advanced AI algorithms, we enhance the design and functionality of our molecular sensors.</p>
-    </section>
-    <section>
-        <h2>Validation</h2>
-        <p>Our technology has been validated across four clinical applications, demonstrating robust performance and reliability.</p>
-    </section>
-    <section>
-        <h2>Competitive Landscape</h2>
-        <p>A comprehensive analysis reveals our unique position relative to existing technologies and competitors.</p>
-    </section>
-    <section>
-        <h2>Current Status</h2>
-        <p>As of 2026, we are positioned for growth and scaling, with ongoing projects and collaborations.</p>
-    </section>
-    <section>
-        <h2>Clinical Translation</h2>
-        <p>Our path to clinical translation includes collaboration opportunities and partnerships with industry leaders.</p>
-    </section>
-    <section>
-        <h2>Vision</h2>
-        <p>Our vision is to leverage molecular fingerprinting technology to improve lives through innovative sensing solutions.</p>
-    </section>
-    <section>
-        <h2>Team</h2>
-        <p>Yahya Rabbani (Scientist)</p>
-        <p>Horst Pick (Senior Scientist at EPFL)</p>
-        <p>Dr. Vitalijs Zubkovs (R&D Project Manager at CSEM)</p>
-        <p>Advisory Board: Prof. Artemis Boghossian, Dr. Stefano Cattaneo</p>
-    </section>
-    <footer>
-        <p>Contact: <a href="mailto:Yahya.Rabbani@gmail.com">Yahya.Rabbani@gmail.com</a></p>
-        <p>Website: <a href="https://www.example.com">www.example.com</a></p>
-    </footer>
+  <header class="navbar">
+    <div class="logo">DOAI</div>
+    <nav>
+      <a href="#platform">Platform</a>
+      <a href="#validation">Validation</a>
+      <a href="#translation">Translation</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-text">
+      <h1>AI-Powered Optical Fingerprinting for Diagnostics</h1>
+      <p>
+        DOAI transforms complex biological signals into molecular fingerprints
+        using programmable ssDNA–SWCNT nanosensor arrays and AI.
+      </p>
+      <div class="buttons">
+        <a href="#platform" class="btn primary">Explore Platform</a>
+        <a href="#contact" class="btn secondary">Partner With Us</a>
+      </div>
+    </div>
+
+    <div class="hero-visual">
+      <div class="fingerprint">◉</div>
+      <p>Molecular Fingerprinting</p>
+    </div>
+  </section>
+
+  <section class="section problem">
+    <h2>Current Sensors Struggle with Complex Systems</h2>
+    <p>
+      Many diagnostic tools are designed to measure one biomarker at a time.
+      Complex diseases such as cancer require multi-marker and system-level information.
+    </p>
+
+    <div class="cards">
+      <div class="card">
+        <h3>Single Target</h3>
+        <p>Traditional sensors often capture limited biological information.</p>
+      </div>
+      <div class="card">
+        <h3>Complex Samples</h3>
+        <p>Real biological systems contain many overlapping molecular signals.</p>
+      </div>
+      <div class="card">
+        <h3>Need for Fingerprints</h3>
+        <p>Multiplex patterns can provide richer diagnostic insight.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="platform" class="section">
+    <h2>Our Platform</h2>
+    <p>
+      DOAI combines ssDNA-wrapped SWCNT optical nanosensors with AI-based pattern
+      recognition to generate disease-relevant molecular fingerprints.
+    </p>
+
+    <div class="workflow">
+      <div>Clinical Sample</div>
+      <span>→</span>
+      <div>Nanosensor Array</div>
+      <span>→</span>
+      <div>Optical Fingerprint</div>
+      <span>→</span>
+      <div>AI Interpretation</div>
+    </div>
+  </section>
+
+  <section id="validation" class="section validation">
+    <h2>Validation Across Applications</h2>
+
+    <div class="cards four">
+      <div class="card">
+        <h3>Cancer Biomarkers</h3>
+        <p>Fingerprinting of PDAC-related biomarkers such as OPG, ICAM-1, and TIMP-1.</p>
+      </div>
+
+      <div class="card">
+        <h3>Glucose Sensing</h3>
+        <p>Non-enzymatic optical glucose sensing in biological environments.</p>
+      </div>
+
+      <div class="card">
+        <h3>Inflammation Monitoring</h3>
+        <p>Nitric oxide sensing for real-time inflammation monitoring.</p>
+      </div>
+
+      <div class="card">
+        <h3>Toxin Detection</h3>
+        <p>Optical sensing for aflatoxin and environmental/food safety applications.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section advantages">
+    <h2>Why DOAI?</h2>
+
+    <div class="cards">
+      <div class="card">
+        <h3>Multiplex</h3>
+        <p>Reads patterns instead of relying on one biomarker.</p>
+      </div>
+      <div class="card">
+        <h3>AI-Guided</h3>
+        <p>Uses data-driven design and interpretation.</p>
+      </div>
+      <div class="card">
+        <h3>Optical</h3>
+        <p>Built around photostable nanosensors and optical readout.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="translation" class="section translation">
+    <h2>Path to Clinical Translation</h2>
+    <p>
+      We are seeking clinical and translational partners to validate molecular
+      fingerprints in real-world samples and co-develop disease-specific panels.
+    </p>
+
+    <div class="cards">
+      <div class="card">
+        <h3>Clinical Access</h3>
+        <p>Patient samples and clinical cohorts.</p>
+      </div>
+      <div class="card">
+        <h3>Co-Development</h3>
+        <p>Biomarker panels and AI models.</p>
+      </div>
+      <div class="card">
+        <h3>Translation</h3>
+        <p>Pilot integration into clinical workflows.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section contact">
+    <h2>Contact</h2>
+    <p>
+      Interested in collaboration, validation, or translational development?
+    </p>
+    <a class="btn primary" href="mailto:Yahya.Rabbani@gmail.com">Contact Yahya Rabbani, PhD</a>
+  </section>
+
+  <footer>
+    <p>
+      DOAI is a research-stage platform and is not approved for clinical diagnostic use.
+    </p>
+    <p>© 2026 DOAI — Diagnostic Optical AI</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
