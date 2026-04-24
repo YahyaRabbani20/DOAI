@@ -211,3 +211,9 @@ footer {
     display: none;
   }
 }
+
+.hero-image {
+  width: 100%;
+  max-width: 420px;
+  border-radius: 24px;
+}
